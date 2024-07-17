@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { CartItemsObj } from '../../Reproduction/models/type';
+import { CartItemsObj } from '../../components/Reproduction/models/type';
 
 
 

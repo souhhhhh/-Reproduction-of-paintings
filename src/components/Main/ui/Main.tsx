@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import bird from '../assets/Bird.svg'
 import styles from './Main.module.scss'
-import { Button, ButtonSize } from '../../Shared/Button/ui/Button';
+import { Button, ButtonSize } from '../../../Shared/Button/ui/Button';
 export const Main:FC = () => { 
     return ( 
     <div className='container' id='main'>

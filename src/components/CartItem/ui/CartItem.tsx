@@ -1,9 +1,9 @@
 import { FC } from "react"
 import styles from './CartItem.module.scss'
-import { Button, ButtonSize } from "../../Shared/Button/ui/Button";
+import { Button, ButtonSize } from "../../../Shared/Button/ui/Button";
 import { CartItemProps } from "../models/CartItem";
-import { useAppDispatch } from "../../redux/hooks";
-import { addToCart } from "../../redux/slices/cartSlice";
+import { useAppDispatch } from "../../../redux/hooks";
+import { addToCart } from "../../../redux/slices/cartSlice";
 import { CartItemsObj } from "../../Reproduction/models/type";
 
 export const CartItem:FC<CartItemProps> = ({pictures}) => { 

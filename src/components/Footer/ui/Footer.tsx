@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import Logo, { Size } from '../../Shared/Logo/Logo';
+import {Logo} from '../../../Shared/Logo/index';
+import {Size} from '../../../Shared/Logo/ui/Logo'
 import styles from './Footer.module.scss'
 import { FC } from 'react';
 export const Footer:FC = () => { 

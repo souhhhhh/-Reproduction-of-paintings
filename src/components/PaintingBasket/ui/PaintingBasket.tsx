@@ -3,8 +3,8 @@ import { CartItemsObj } from "../../Reproduction/models/type"
 import styles from './PaintingBasket.module.scss'
 import minusButton from '../assets/Minus.png'
 import plusButton from '../assets/Plus.png'
-import { useAppDispatch } from "../../redux/hooks"
-import { minusPicture, plusPicture, removeItem } from "../../redux/slices/cartSlice"
+import { useAppDispatch } from "../../../redux/hooks"
+import { minusPicture, plusPicture, removeItem } from "../../../redux/slices/cartSlice"
 export const PaintingBasket:FC<CartItemsObj> = ({name, price, img, count, id}) => { 
     
     

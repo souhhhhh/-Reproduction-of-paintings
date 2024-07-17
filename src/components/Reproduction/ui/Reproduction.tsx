@@ -3,8 +3,8 @@ import styles from './Reproduction.module.scss'
 import { CartItem } from '../../CartItem';
 // import axios from 'axios'
 import { CartItemsObj } from '../models/type';
-import { Skeleton } from '../../Skeleton/ui/Skeleton'
-import { useGetPictureCountryQuery } from '../../redux/api/api'
+import { Skeleton } from '../../../Skeleton/ui/Skeleton'
+import { useGetPictureCountryQuery } from '../../../redux/api/api'
 
 export const Reproduction:FC = () => { 
 

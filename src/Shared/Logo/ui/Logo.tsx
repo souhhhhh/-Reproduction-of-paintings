@@ -1,8 +1,8 @@
 import { FC } from 'react'
-import star from '../../Header/assets/Star.svg'
+import star from '../../../components/Header/assets/Star.svg'
 import styles from './Logo.module.scss'
 import classNames from 'classnames'
-import { HeaderButton } from '../HeaderButton/HeaderButton'
+import { HeaderButton } from '../../HeaderButton/HeaderButton'
 
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -16,7 +16,7 @@ interface sizeProps {
     disabled?: boolean
 }
 
-const Logo: FC<sizeProps> = ( {size, disabled} ) => { 
+export const Logo: FC<sizeProps> = ( {size, disabled} ) => { 
 
     return ( 
         <div >
@@ -27,4 +27,3 @@ const Logo: FC<sizeProps> = ( {size, disabled} ) => {
         </div>
     )
 }
-export default Logo

@@ -1,6 +1,6 @@
 import styles from './NewItems.module.scss';
 import star from '../assets/Star 2.svg'
-import { Button, Familiarize } from '../../Shared/Button/ui/Button';
+import {Button, Familiarize} from '../../../Shared/Button/ui/Button';
 import { FC } from 'react';
 export const NewItem:FC= () => { 
     return ( 

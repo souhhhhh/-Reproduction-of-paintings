@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import Logo, { Size } from '../../Shared/Logo/Logo'
+import {Logo, Size } from '../../../Shared/Logo/ui/Logo'
 import styles from './Cart.module.scss'
-import { useAppSelector } from '../../redux/hooks'
+import { useAppSelector } from '../../../redux/hooks'
 import { CartItemsObj } from '../../Reproduction/models/type'
 import { PaintingBasket } from '../../PaintingBasket'
 export const Cart = () => { 

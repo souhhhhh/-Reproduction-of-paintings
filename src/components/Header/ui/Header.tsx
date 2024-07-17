@@ -1,10 +1,11 @@
 import styles from './Header.module.scss'
 import cart from '../assets/Cart.svg'
 import { FC} from 'react';
-import Logo, { Size } from '../../Shared/Logo/Logo';
-import { HeaderButton } from '../../Shared/HeaderButton/HeaderButton';
+import { Size } from '../../../Shared/Logo/ui/Logo';
+import {Logo} from '../../../Shared/Logo/index'
+import { HeaderButton } from '../../../Shared/HeaderButton/HeaderButton';
 import { Link } from 'react-router-dom';
-import { useAppSelector } from '../../redux/hooks';
+import { useAppSelector } from '../../../redux/hooks';
 export const Header:FC = () => { 
     const { totalPictures } = useAppSelector((state) => state.cartSlice)
 

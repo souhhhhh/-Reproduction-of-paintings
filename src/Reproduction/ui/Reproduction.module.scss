@@ -1,0 +1,36 @@
+.reprodaction { 
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & { 
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 44px;
+        color: #2C2D35;
+    }
+    .text {
+        display: flex;
+        gap: 15px;
+
+        button{
+            border-radius: 20px;
+            padding: 10px 20px 10px 20px;
+            background-color: #D4E8D9;
+            color: #2C2D35;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 22px;
+            &:hover { 
+                transition: background-color .7s;
+                background-color: #7ab389;
+            }
+            
+        }
+        .active { 
+           background-color: #639470;
+        }
+    }
+    
+}

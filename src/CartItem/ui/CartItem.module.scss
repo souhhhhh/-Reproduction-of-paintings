@@ -1,0 +1,41 @@
+.cart { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+    .all { 
+        background-color: #E1EDE6;
+        padding: 20px;
+    }
+    .text {
+        font-family: Raleway;
+        font-weight: 500;
+        p { 
+            font-size: 18px;
+            line-height: 21px;
+            color: #86928B;
+            margin-top: 10px;
+        }
+        h1 { 
+            font-size: 30px;
+            line-height: 35px;
+            color: #2C2D35;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        h2 { 
+            font-size: 17px;
+            line-height: 20px;
+            margin-bottom: 30px;
+        }
+        h3 { 
+            font-size: 24px;
+            line-height: 28px;
+            color: #598D66;
+        }
+    }
+       
+    
+}

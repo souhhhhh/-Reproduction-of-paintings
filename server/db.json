@@ -1,0 +1,212 @@
+{
+  "pictures": [
+
+    {
+      "id": "0",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03.jpg",
+      "author": "Марсель Руссо",
+      "name": "Охота Амура",
+      "textile": "Холст",
+      "materials": "масло",
+      "size": "50 x 80",
+      "price": "14500",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "1",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-1.jpg",
+      "author": "Андри Селин",
+      "name": "Дама с собачкой",
+      "textile": "Бумага",
+      "materials": "Акрил",
+      "size": "50 x 80",
+      "price": "16500",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "2",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-2.jpg",
+      "author": "Франсуа Дюпон",
+      "name": "Процедура",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "20000",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "3",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-3.jpg",
+      "author": "Луи Детуш",
+      "name": "Роза",
+      "textile": "Бумага",
+      "materials": "акрил",
+      "size": "50 x 80",
+      "price": "12000",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "4",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-4.jpg",
+      "author": "Франсуа Дюпон",
+      "name": "Птичья трапеза",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "22500",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "5",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-5.jpg",
+      "author": "Пьер Моранж",
+      "name": "Пейзаж с рыбой",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "20000",
+      "country": "0",
+      "count": 0
+    },
+    {
+      "id": "6",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-6.jpg",
+      "author": "Курт Вернер",
+      "name": "Над городом",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "16000",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "7",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-7.jpg",
+      "author": "Макс Рихтер",
+      "name": "Птенцы",
+      "textile": "Холст",
+      "materials": "масло",
+      "size": "50 x 80",
+      "price": "14500",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "8",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-8.jpg",
+      "author": "Мартин Майер",
+      "name": "Среди листьев",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "20000",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "9",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-9.jpg",
+      "author": "Герман Беккер",
+      "name": "Яркая птица",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "13000",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "10",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-10.jpg",
+      "author": "Вульф Бауэр",
+      "name": "Дятлы",
+      "textile": "Бумага",
+      "materials": "акрил",
+      "size": "50 x 80",
+      "price": "20000",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "11",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-11.jpg",
+      "author": "Вальтер Хартманн",
+      "name": "Большие воды",
+      "textile": "Бумага",
+      "materials": "акрил",
+      "size": "50 x 80",
+      "price": "23000",
+      "country": "1",
+      "count": 0
+    },
+    {
+      "id": "12",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-12.jpg",
+      "author": "Пол Смит",
+      "name": "Дикий зверь",
+      "textile": "Бумага",
+      "materials": "акварель",
+      "size": "50 x 80",
+      "price": "19500",
+      "country": "2",
+      "count": 0
+    },
+    {
+      "id": "13",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-13.jpg",
+      "author": "Джон Уайт",
+      "name": "Скалистый берег",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "17500",
+      "country": "2",
+      "count": 0
+    },
+    {
+      "id": "14",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-14.jpg",
+      "author": "Джим Уотсон",
+      "name": "Река и горы",
+      "textile": "Бумага",
+      "materials": "акварель",
+      "size": "50 x 80",
+      "price": "20500",
+      "country": "2",
+      "count": 0
+    },
+    {
+      "id": "15",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-15.jpg",
+      "author": "Юджин Зиллион",
+      "name": "Белый попуай",
+      "textile": "Бумага",
+      "size": "40 x 60",
+      "price": "15500",
+      "country": "2",
+      "count": 0
+    },
+    {
+      "id": "16",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-16.jpg",
+      "author": "Эрик Гиллман",
+      "name": "Ночная рыба",
+      "textile": "Бумага",
+      "materials": "акрил",
+      "size": "50 x 80",
+      "price": "12500",
+      "country": "2",
+      "count": 0
+    },
+    {
+      "id": "17",
+      "img": "https://ltdfoto.ru/images/2024/07/12/03-17.jpg",
+      "author": "Альфред Барр",
+      "name": "Рыжий кот",
+      "textile": "Цветная литография",
+      "size": "40 x 60",
+      "price": "21000",
+      "country": "2",
+      "count": 0
+    }
+  ]
+}

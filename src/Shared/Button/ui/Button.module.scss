@@ -1,0 +1,35 @@
+.Button { 
+    padding: 20px 60px 20px 60px;
+    border: 1px solid #598D66;
+    color: #598D66;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: transparent;
+    &:hover { 
+        background-color: #D4E8D9;
+        transition: background-color .4s;
+    }
+}
+
+.long { 
+    padding: 20px 80px 20px 80px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 20px;
+    &:hover { 
+        background-color: #D4E8D9;
+        transition: background-color .4s;
+    }
+}
+
+.familiarize { 
+    background-color: #EEDB6D;
+    color: #2C2D35;
+    font-family: Raleway;
+    margin-top: 50px;
+    &:hover { 
+        background-color: #f8e57b;
+        transition: background-color .4s;
+    }
+}

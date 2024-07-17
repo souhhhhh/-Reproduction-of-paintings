@@ -1,0 +1,22 @@
+.img { 
+    display: flex; 
+    align-items: center;
+    margin-left: 165px;
+    img { 
+        width: 35px;
+        height: 35px;
+    }
+
+    button { 
+        background-color: transparent;
+        color: #598D66;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: Raleway;
+    }
+}
+
+.nmargin { 
+    margin-left: 0;
+}

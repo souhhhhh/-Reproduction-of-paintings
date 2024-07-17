@@ -1,0 +1,60 @@
+@mixin pSize { 
+    font-family: Raleway;
+    margin-top: 10px;
+    color: #2C2D35;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+@mixin h1Size { 
+    color: #86928B;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer { 
+    background-color: #E1EDE6;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-top: 70px;
+
+    .logo{ 
+        margin-left: 390px;
+        margin-right: 150px; 
+
+        p{ 
+            @include pSize()
+        }
+        
+        h1 { 
+            padding-top: 15px;
+            @include h1Size()
+        }
+    }
+    
+    .text { 
+        display: flex;
+        .reproduction, .news, .about, .contacts { 
+            margin-right: 70px;
+    
+    
+            p { 
+                margin-top: 5px;
+                @include pSize();
+            }
+            h1 { 
+                margin-top: 10px;
+                @include h1Size();
+            }
+    
+    
+        }
+    }
+    .contacts { 
+        margin-left: 30px;
+    }
+
+
+}

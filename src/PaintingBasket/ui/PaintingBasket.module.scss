@@ -1,0 +1,60 @@
+.PaintingBasket { 
+    display: flex;
+    justify-content: center;
+
+    .cart { 
+        width: 681px;
+        height: 98px;
+        border-radius: 12px;
+        background-color: #F3F3F3;
+        color: #2C2D35;
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        img { 
+            border-radius: 10px;
+            margin: 5px;
+        }
+        .imgText { 
+            display: flex;
+        }
+
+        .name { 
+            display: flex;
+            flex-direction: column;
+            margin-top: 23px;
+            margin-left: 10px;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 20px;
+            font-family: Raleway;
+            h2 { 
+                margin-top: 10px;
+            }
+        }
+
+        .count { 
+            display: flex;
+            margin-top: 30px;
+            margin-right: 20px;
+            button { 
+                background-color: transparent;
+                height: 30px;
+            }
+            
+            
+            h1, h2 { 
+                margin-top: 5px;
+                font-weight: 500;
+                font-size: 23px;
+                line-height: 25px;
+                color: #323142;
+                font-family: Raleway;
+            }
+            h2 { 
+                margin-left: 10px;
+            }
+
+        }
+    }
+}

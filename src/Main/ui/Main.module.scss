@@ -1,0 +1,31 @@
+.glav { 
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    .text { 
+            margin-left:30px;
+        p { 
+            color: #2C2D35;
+            font-size: 60px;
+            line-height: 60px;
+    
+            span { 
+                color: #598D66;
+                font-weight: 500;
+                font-size: 60px;
+                line-height: 66px;
+            }
+        }
+    
+        h1 { 
+            color: #86928B;
+            font-family: 500;
+            font-size: 18px;
+            line-height: 27px;
+            margin-top: 20px;
+            margin-bottom: 90px;
+        }
+    }
+
+
+}

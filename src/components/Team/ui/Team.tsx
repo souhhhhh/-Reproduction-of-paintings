@@ -6,7 +6,7 @@ export const Team:FC = () => {
     return ( 
         <div className="container">
             <div className={styles.team}>
-                <img src={img} alt="" />
+                <img src={img} alt="" className={styles.img}/>
 
                 <div className={styles.text}>
                 <p>Наша команда</p>

@@ -23,6 +23,9 @@
     .logo{ 
         margin-left: 390px;
         margin-right: 150px; 
+        @media (max-width: 430px) {
+            margin-left: 0;
+        }
 
         p{ 
             @include pSize()
@@ -49,12 +52,16 @@
                 @include h1Size();
             }
     
-    
+            
+        }
+    }
+    .news, .about, .contacts { 
+        @media (max-width: 430px) {
+            display: none;
         }
     }
     .contacts { 
         margin-left: 30px;
     }
-
 
 }

@@ -17,7 +17,6 @@ export enum Familiarize {
 interface ButtonProps { 
     size: ButtonSize | Familiarize,
     children: ReactNode,
-    className?: string,
     onClick?: () => void,
 }
 

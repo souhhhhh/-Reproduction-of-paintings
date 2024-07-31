@@ -22,7 +22,7 @@ export const CartItem:FC<CartItemProps> = ({pictures}) => {
                 {pictures?.map(picture => (
 
                     <div className={styles.all} key={picture.id}>
-                        <img src={picture.img} alt="" width={310} height={422}/>
+                        <img className={styles.picture} src={picture.img} alt="" />
                         <div className={styles.text}>
                             <p>{picture.author}</p>
                             <h1>{picture.name}</h1>

@@ -16,7 +16,7 @@ export const Header:FC = () => {
 
         <div className={styles.glav}>
 
-            <Logo size={Size.WMARGIN} />
+                <Logo size={Size.WMARGIN}/>
 
             <div className={styles.nav}>
                 <HeaderButton moving={650}>Репродукция</HeaderButton>
@@ -26,7 +26,7 @@ export const Header:FC = () => {
                 <div className={styles.cart}>
 
                 <Link to='cart'>
-                    <img src={cart} alt="" />
+                    <img src={cart} alt="" className={styles.img}/>
                 </Link>       
                     <h1>{totalPictures}</h1>
 

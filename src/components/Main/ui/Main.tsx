@@ -13,13 +13,13 @@ export const Main:FC = () => {
         </div>
 
         <div className={styles.text}>
-            <p>Реплики картин <br /> от <span>Ink. House </span></p>
+            <p className={styles.pText}>Реплики картин <br /> от <span className={styles.spanText}>Ink. House </span></p>
 
-            <h1>Высокое качество отрисовки на плотной бумаге или льняном <br /> холсте. Редкие произведения, доступные цены.</h1>
+            <h1 className={styles.hText}>Высокое качество отрисовки на плотной бумаге или льняном <br /> холсте. Редкие произведения, доступные цены.</h1>
             
         
-            <div >
-                <Button size={ButtonSize.SHORT}>Продукция</Button>
+            <div>
+                <Button size={ButtonSize.LONG}>Продукция</Button>
             </div>
 
         </div>

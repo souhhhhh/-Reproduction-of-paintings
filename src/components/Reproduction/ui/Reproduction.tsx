@@ -43,7 +43,7 @@ export const Reproduction:FC = () => {
         <div className='container' >
             <div className={styles.reprodaction}>
 
-                <p>Репродукции</p>
+                <p className={styles.reprodactionText}>Репродукции</p>
 
                 <div className={styles.text} >
                         {categories.map((value,i) => ( 

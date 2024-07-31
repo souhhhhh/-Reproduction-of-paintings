@@ -1,6 +1,5 @@
 import { FC, ReactNode } from "react";
 
-
 interface HeaderButtonProps { 
     moving: number,
     children: ReactNode,
@@ -21,6 +20,6 @@ export const HeaderButton:FC<HeaderButtonProps> = ( {moving, children, disabled 
     }
     
     return ( 
-        <button disabled={disabled} onClick={scrollToHandler}>{children}</button>
+        <button  disabled={disabled} onClick={scrollToHandler}>{children}</button>
     )
 };
